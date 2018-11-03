@@ -8,6 +8,12 @@ console.log("*** Problem 1: R-rated ***");
 let age = READLINE.question("Enter your age: ");
 let withAdult = READLINE.question("Are you with an adult? (yes or no): ");
 
+if(age>=18 || withAdult == "yes"){
+		console.log("Congrats you can see the movie!")
+}
+else { 
+	console.log("Sorry, you cannot see this movie.");
+}
 
 // **** Problem 2: Umbrella ****
 // You should bring an umbrella when you travel, but only if it is raining.
@@ -59,3 +65,27 @@ let money = READLINE.question("How much money do you have?: ");
 console.log("*** Problem 6: Guess My Number ***");
 let myNum = 5;
 let guess = READLINE.question("I'm thinking of a number. Guess it: ");
+const READLINE =require("readline-sync")
+
+let wantsToDrink = READLINE.question(You're at a party and want to drink"-'
+
+
+if(wantsToDrink == 'yes') {
+		let age = READLINE.question("Please enter your age: ");
+		if(age>=21) {
+			console.log(Congrats! You can drink alcohol!)
+		}
+		else {
+
+			consol.log("Sorry. It's illegal to drink alcohol for you")
+			a
+		}
+
+
+
+
+console.log("*** Problem 1: R-rated ***");
+let age = READLINE.question("enter your age: ");
+let withAdult
+
+
