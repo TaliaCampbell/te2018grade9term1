@@ -22,8 +22,8 @@ else {
 // with them.
 console.log("*** Problem 2: Umbrella ***");
 let raining = READLINE.question("Is it raining? (yes or no): ");
-let thunderstorming = READLINE.question("Is it thunderstorming? (yes or no): ");
-
+let thunderstorming = READLINE.question("Is it thunderstorming? (yes or no): ");\
+	
 
 // **** Problem 3: Monkey Trouble ****
 // There are two monkeys: Bubbles and Spankey. You are in trouble if both of
@@ -77,15 +77,12 @@ if(wantsToDrink == 'yes') {
 		}
 		else {
 
-			consol.log("Sorry. It's illegal to drink alcohol for you")
-			a
+			console.log("Sorry. It's illegal to drink alcohol for you")
+			
 		}
 
 
 
 
-console.log("*** Problem 1: R-rated ***");
-let age = READLINE.question("enter your age: ");
-let withAdult
 
 
