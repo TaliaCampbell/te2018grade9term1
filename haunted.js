@@ -1,5 +1,5 @@
 
-35  const READLINE = require("readline-sync")
+const READLINE = require("readline-sync")
  console.log("★Welcome to the famous spooky haunted house. This house has been said to be haunted since 1876. Anyone who entered has never made it out...alive.★");
 
 let enterHouse = READLINE.question("Will you enter the haunted house?");
@@ -62,7 +62,7 @@ if(runSell == "Run" || runSell == "run"){
 }
 
 console.log("*****************************************************************")
-console.log("**************************The End********************************")
+console.log("**************************тнє єи∂********************************")
 console.log("*****************************************************************")
 
 
